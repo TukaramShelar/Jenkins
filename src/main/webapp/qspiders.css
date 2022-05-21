@@ -1,0 +1,50 @@
+ h1{
+    color: black;
+    font-family: cursive;
+}
+h1::first-letter
+    {
+    font-size:50px;
+    font-weight: bold;
+    color:orange;
+    }
+#div{
+    border: gray;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    background: white;
+    text-align: center;
+    box-shadow:5px 5px 10px  black
+}
+input{
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+    border:solid;
+    border-color:rgb(240, 236, 236);
+    padding: 10px;
+}
+button{
+    background: blue;
+    color: white;
+}
+#btn1:hover{
+ background-color: blue;
+ transition: 1s;
+}
+#btn1{
+    background: skyblue;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+    border: blue;
+}
+#div2{
+border:solid gray;
+width:  350px;
+height: 50px;
+margin: auto;
+padding: 15px;
+background-color: white;
+}
